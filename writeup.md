@@ -63,6 +63,7 @@ After playing with the parametres and researching how they were chosen by others
 
 I created 3 functions which allow me to quickly switch between different parametres in my project in section "Step 0. Imports, utils and settings"
 
+```
 gradx_thresh = 0 # gradient x threshold
 grady_thresh = 0 # gradient y threshold
 schannel_thresh = 0 # gradient s channel threshold
@@ -152,6 +153,7 @@ def enable_hard_challenge_options():
     mid_width = .3
     height_pct = .73
     bottom_trim = .935
+```
 
 The results of applying perspective transform to the images from different project videos are shown below: 
 
@@ -195,6 +197,7 @@ I this section I pierced my pipeline together into set of functions. The main fu
 
 I used the same algorithm for curvature and vehicle position estimations as it was suggested in lectures. The functions to compute these values are defined as follows:
 
+```
 def get_curvature(y_to_fit, x_to_fit, y_eval):
     # Conversion factors for pixels to meters
     m_per_pix_y, m_per_pix_x = 30/720, 3.7/700
@@ -212,6 +215,7 @@ def calc_offset(left_x, right_x, img_center_x):
     
     lane_width_m = 3.7  # How wide we expect the lane to be in meters
     return lane_width_m * (pix_offset/lane_width)
+```
 
 In order to perform a smooth processing of video files I average latest 3 detected lanes, which I store as objects of "Lane" class. I also compare every detected lane with previous detected lane to ensure that it did not change too much, because this will mean that the pipeline failed to detect lane on this frame.
 
