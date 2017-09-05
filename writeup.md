@@ -49,6 +49,10 @@ As a result: V, S channels and gradients were combined separately by applying "b
 The results of color thresholding, applying sobel operator and an example of final thresholded image are show below.
 
 <img src="submission_res/thresholding_steps.png" width="720" alt="Combined Image" />
+<img src="submission_res/filter_sv.png" width="720" alt="Combined Image" />
+<img src="submission_res/sobel_x.png" width="720" alt="Combined Image" />
+<img src="submission_res/sobel_y.png" width="720" alt="Combined Image" />
+<img src="submission_res/thresholded.png" width="720" alt="Combined Image" />
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
@@ -152,8 +156,11 @@ def enable_hard_challenge_options():
 The results of applying perspective transform to the images from different project videos are shown below: 
 
 <img src="submission_res/test_1_bird_eye.png" width="720" alt="Combined Image" />
+<img src="submission_res/test_12_bird_eye.png" width="720" alt="Combined Image" />
 <img src="submission_res/test_2_bird_eye.png" width="720" alt="Combined Image" />
+<img src="submission_res/test_22_bird_eye.png" width="720" alt="Combined Image" />
 <img src="submission_res/test_3_bird_eye.png" width="720" alt="Combined Image" />
+<img src="submission_res/test_32_bird_eye.png" width="720" alt="Combined Image" />
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
