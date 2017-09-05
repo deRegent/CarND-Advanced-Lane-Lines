@@ -23,7 +23,12 @@ To meet specifications, the project contains five files:
 * a markdown report writeup file 
 
 Folders "test_images", "hard_challenge_test_images", "challenge_test_images" contain test images from 3 of project videos which are used in ipynb file.
-It also contains three video files in directory "videos_out" which are the results of applying pipeline to the test video files in folder "test_videos".
+
+These are the links to my processed videos:
+
+1. [Project video](https://youtu.be/iDbKAHjXzCI)
+2. [Challenge video](https://youtu.be/yVQVdUi6FZY)
+3. [Hard challenge video](https://youtu.be/7urmMT7tXiE)
 
 ### Dependencies
 This lab requires:

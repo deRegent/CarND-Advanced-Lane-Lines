@@ -1,6 +1,6 @@
 **Advanced Lane Finding Project**
 
-##Built by Dmitry Zaganich in September 2017.
+## Built by Dmitry Zaganich in September 2017.
 
 The goals / steps of this project are the following:
 
@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/571/view) individually and describe how I addressed each point in my implementation.  
+### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/571/view) individually and describe how I addressed each point in my implementation.  
 
 ---
 
@@ -219,9 +219,9 @@ The result of applying a complete pipeline on a test image is shown below:
 
 These are the links to my processed videos:
 
-1. [Project video](./videos_out/project_video.mp4)
-2. [Challenge video](./videos_out/challenge_video.mp4)
-3. [Hard challenge video](./videos_out/harder_challenge_video.mp4)
+1. [Project video](https://youtu.be/iDbKAHjXzCI)
+2. [Challenge video](https://youtu.be/yVQVdUi6FZY)
+3. [Hard challenge video](https://youtu.be/7urmMT7tXiE)
 
 ---
 
