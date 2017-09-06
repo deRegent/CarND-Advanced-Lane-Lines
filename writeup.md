@@ -230,9 +230,9 @@ The result of applying a complete pipeline on a test image is shown below:
 
 These are the links to my processed videos:
 
-1. [Project video](https://youtu.be/iDbKAHjXzCI)
-2. [Challenge video](https://youtu.be/yVQVdUi6FZY)
-3. [Hard challenge video](https://youtu.be/7urmMT7tXiE)
+1. [Project video](./videos_out/project_video.mp4)
+2. [Challenge video](./videos_out/challenge_video.mp4)
+3. [Hard challenge video](./videos_out/harder_challenge_video.mp4)
 
 ---
 
@@ -240,7 +240,7 @@ These are the links to my processed videos:
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-I was able to build a pipeline which performed well on the first video, and almost performed well on the challenge videos. 
+I was able to build a pipeline which performed well on the first video, and performed well on some parts of challenge videos. 
 
 However, I faced such issues as incorrect lane border detection in challenge videos, because sometimes oversaturation of road corners and straigh lines of a road boundary were mistaken with lane borders by algorithm. By analysing test images, which I exctracted from challenge videos, I was able to visually identify lanes on the "bird-eye" type of image, but histogram + polyfit method did not perform well, because it did not account the shape of the line. To improve this situation I can use some methods of shape detection, which I can then apply to all of the possible "starts of a line" in histogram and pick the best. It should remove some problems in video #3. 
 

@@ -26,9 +26,9 @@ Folders "test_images", "hard_challenge_test_images", "challenge_test_images" con
 
 These are the links to my processed videos:
 
-1. [Project video](https://youtu.be/iDbKAHjXzCI)
-2. [Challenge video](https://youtu.be/yVQVdUi6FZY)
-3. [Hard challenge video](https://youtu.be/7urmMT7tXiE)
+1. [Project video](./videos_out/project_video.mp4)
+2. [Challenge video](./videos_out/challenge_video.mp4)
+3. [Hard challenge video](./videos_out/harder_challenge_video.mp4)
 
 ### Dependencies
 This lab requires:
